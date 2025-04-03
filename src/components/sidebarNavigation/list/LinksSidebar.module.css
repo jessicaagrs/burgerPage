@@ -1,0 +1,33 @@
+.list {
+  list-style: none;
+  padding-top: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.listItem a {
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 24px;
+  text-decoration: none;
+  width: 252px;
+  height: 64px;
+  display: flex;
+  padding: 16px 24px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: var(--color-20);
+  border-radius: 16px;
+}
+
+.listItem a:hover {
+  color: var(--color-30);
+  background-color: var(--color-10);
+  transition: all 0.3s ease-in-out;
+}
+
+.listItem a svg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}

@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+  color: var(--color-10);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.link:hover {
+  border-bottom: 2px solid var(--color-10);
+}

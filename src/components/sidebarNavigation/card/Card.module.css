@@ -1,0 +1,43 @@
+.container {
+  margin-top: 56px;
+  width: 255;
+  height: 285px;
+  background-image: url('/card.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 30px;
+  position: relative;
+}
+
+.spaceTitle {
+  max-width: 15ch;
+}
+
+.containerButton {
+  width: 105px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: var(--color-30);
+  color: var(--color-40);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.containerButton:hover {
+  background-color: var(--color-50);
+  color: var(--color-30);
+  transition: all 0.3s ease-in-out;
+}
+
+.containerImage {
+  position: absolute;
+  right: 15px;
+}

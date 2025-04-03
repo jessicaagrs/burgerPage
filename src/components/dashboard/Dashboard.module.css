@@ -1,0 +1,5 @@
+.container {
+    width: 60%;
+    padding: 0 40px;
+    background-color: var(--color-70);
+}
