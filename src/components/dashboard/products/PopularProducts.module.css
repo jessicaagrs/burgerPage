@@ -1,0 +1,17 @@
+.container {
+  margin-top: 40px;
+}
+
+.containerTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerProducts {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}

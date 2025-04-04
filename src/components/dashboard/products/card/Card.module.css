@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 32px 0 32px;
+  background-color: var(--color-30);
+  border-radius: 16px;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  width: 96px;
+  top: 28px;
+  left: 0px;
+  color: var(--color-30);
+  background-color: var(--color-80);
+  padding: 4px 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.buttonFavorite {
+  position: absolute;
+  top: 28px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: var(--color-80);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.containerImage {
+  width: 272px;
+}
+
+.containerImage img {
+  width: 100%;
+  height: auto;
+}
+
+.containerInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info span {
+  color: var(--color-10);
+}
+
+.infoDescription {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: var(--color-40);
+}
+
+.infoPrice {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--color-40);
+  font-weight: bold;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.button {
+  width: 48px;
+  height: 48px;
+  background-color: var(--color-10);
+  color: var(--color-30);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: var(--color-20);
+}
