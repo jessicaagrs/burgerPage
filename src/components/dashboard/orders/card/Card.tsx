@@ -19,7 +19,7 @@ export const Card = ({ product, price, km, time, imageUrl }: CardProps) => {
         <IoMdHeart />
       </button>
       <a
-        href='#'
+        href='/'
         className={style.link}
       >
         <img

@@ -47,7 +47,7 @@
 .cardInfo p:nth-child(3) {
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: var(--color-20);
+  color: var(--color-60);
 }
 
 .buttonFavorite {

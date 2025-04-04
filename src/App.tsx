@@ -1,4 +1,5 @@
 import './App.css';
+import Checkout from './components/checkout/Checkout';
 import Dashboard from './components/dashboard/Dashboard';
 import SidebarNavigation from './components/sidebarNavigation/SidebarNavigation';
 
@@ -7,7 +8,7 @@ function App() {
     <>
       <SidebarNavigation />
       <Dashboard />
-      <aside style={{ width: '255px' }}>Barra lateral 2</aside>
+      <Checkout />
     </>
   );
 }

@@ -21,7 +21,7 @@ export const Categories = () => {
       <ul className={style.list}>
         <li>
           <a
-            href='#'
+            href='/'
             className={style.listItem}
           >
             <img
@@ -35,7 +35,7 @@ export const Categories = () => {
         </li>
         <li>
           <a
-            href='#'
+            href='/'
             className={style.listItem}
           >
             <img
@@ -49,7 +49,7 @@ export const Categories = () => {
         </li>
         <li>
           <a
-            href='#'
+            href='/'
             className={style.listItem}
           >
             <img
@@ -63,7 +63,7 @@ export const Categories = () => {
         </li>
         <li>
           <a
-            href='#'
+            href='/'
             className={style.listItem}
           >
             <img
@@ -77,7 +77,7 @@ export const Categories = () => {
         </li>
         <li>
           <a
-            href='#'
+            href='/'
             className={style.listItem}
           >
             <img
@@ -91,7 +91,7 @@ export const Categories = () => {
         </li>
         <li>
           <a
-            href='#'
+            href='/'
             className={style.listItem}
           >
             <img

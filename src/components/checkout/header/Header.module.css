@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.list li {
+  position: relative;
+}
+
+.list li:nth-child(1)::after,
+.list li:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--color-10);
+  width: 8px;
+  height: 8px;
+}
+
+.list li a img {
+  width: 35px;
+  height: auto;
+  object-fit: cover;
+}
+
+.photoUser img {
+  border-radius: 16px;
+}

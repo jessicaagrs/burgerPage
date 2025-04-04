@@ -4,7 +4,7 @@ import style from './Link.module.css';
 export const Link = () => {
   return (
     <a
-      href='#'
+      href='/'
       className={style.link}
     >
       Ver todas

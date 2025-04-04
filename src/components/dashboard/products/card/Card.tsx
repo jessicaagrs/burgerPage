@@ -23,7 +23,7 @@ export const Card = ({ price, name, imageUrl, discount }: CardProps) => {
       </button>
       <a
         className={style.containerImage}
-        href='#'
+        href='/'
         aria-label={name}
       >
         <img

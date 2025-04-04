@@ -8,43 +8,43 @@ export const LinksSidebar = () => {
   return (
     <ul className={style.list}>
       <li className={style.listItem}>
-        <a href='#'>
+        <a href='/'>
           <IoFastFoodOutline />
           Dashboard
         </a>
       </li>
       <li className={style.listItem}>
-        <a href='#'>
+        <a href='/'>
           <MdOutlineDeliveryDining />
           Pedidos
         </a>
       </li>
       <li className={style.listItem}>
-        <a href='#'>
+        <a href='/'>
           <TbMessage2Heart />
           Favoritos
         </a>
       </li>
       <li className={style.listItem}>
-        <a href='#'>
+        <a href='/'>
           <TbMessage />
           Mensagens
         </a>
       </li>
       <li className={style.listItem}>
-        <a href='#'>
+        <a href='/'>
           <MdHistory />
           Histórico
         </a>
       </li>
       <li className={style.listItem}>
-        <a href='#'>
+        <a href='/'>
           <FaMoneyBillTransfer />
           Cartões
         </a>
       </li>
       <li className={style.listItem}>
-        <a href='#'>
+        <a href='/'>
           <IoSettingsOutline />
           Configurações
         </a>
