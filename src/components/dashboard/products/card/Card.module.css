@@ -67,13 +67,11 @@
 .infoDescription {
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: var(--color-40);
 }
 
 .infoPrice {
   font-size: 1.5rem;
   line-height: 2rem;
-  color: var(--color-40);
   font-weight: bold;
   display: flex;
   gap: 8px;
